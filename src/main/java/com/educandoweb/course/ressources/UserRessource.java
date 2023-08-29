@@ -19,8 +19,8 @@ public class UserRessource {
 	@Autowired
 	private UserService service;
 	
-	@GetMapping
 	//Metedo teste para acessar os usuários
+	@GetMapping
 	public ResponseEntity<List<User>> findAll(){
 		List<User> list = service.findAll();		
 		return ResponseEntity.ok().body(list);
