@@ -16,6 +16,10 @@ Projeto para aplicação do conhecimento adquirido no curso de Java com programa
       <img src="https://skillicons.dev/icons?i=git,github,eclipse,java,spring,maven,mysql,postgres,postman,heroku,hibernate" />
     </a>
   </p>
+<h3 align="left">Diagrama UML do modelo de domínio</h3>
 
 ![Modelo Dominio](https://github.com/ticoabc/workshop-springboot4-jpa/blob/e8675af5ea49ea2dd2bb75acd3ce1a4ae1f66d85/modelodominio.JPG)
+
+<h3 align="left">Camadas lógicas do projeto</h3>
+
 ![Camada Logica](https://github.com/ticoabc/workshop-springboot4-jpa/blob/e8675af5ea49ea2dd2bb75acd3ce1a4ae1f66d85/camadaslogicas.JPG)
