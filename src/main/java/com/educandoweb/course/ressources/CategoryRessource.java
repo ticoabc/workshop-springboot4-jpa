@@ -19,7 +19,7 @@ public class CategoryRessource {
 	@Autowired
 	private CategoryService service;
 	
-	//Metedo teste para acessar os usuários
+	//Metedo teste para acessar as Categorias
 	@GetMapping
 	public ResponseEntity<List<Category>> findAll(){
 		List<Category> list = service.findAll();		
