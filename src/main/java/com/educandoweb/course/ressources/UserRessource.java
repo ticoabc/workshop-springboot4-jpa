@@ -56,7 +56,7 @@ public class UserRessource {
 		return ResponseEntity.noContent().build();
 	}
 	
-	//Metedo (endpoints) para deletar um usuário
+	//Metedo (endpoints) para atualizar um usuário
 	@PutMapping(value = "/{id}")
 	public ResponseEntity<User> update(@PathVariable Long id, @RequestBody User obj){
 		obj = service.update(id, obj);
